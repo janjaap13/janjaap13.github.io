@@ -1,0 +1,54 @@
+<html>
+  <head>
+	<meta charset="utf-8" />
+	<meta name="description" content="ContactPage" />
+	<meta name="keywords" content="company, contact, html" />
+	<meta name="author" content="Jan Jaap van Laar" />
+	<link rel="stylesheet" href="mystyle.css">
+
+    <title>Ludus Technologies - Contact</title>
+  </head>
+  <body id="grid-containerContactPage">
+    <header>
+      <img src="logo.png" class="logo" alt="Ludus Technologies logo">
+      <h1>Ludus Technologies</h1>
+      <h2>Innovation for the modern world</h2>  
+    </header>
+  <section class="navigation">
+  <a href="#main-menu" id="main-menu-toggle" class="menu-toggle">MENU</a> 
+  <nav id="main-menu" class="main-menu">
+    <a href="#main-menu-toggle" id="main-menu-close" class="menu-close">X</a>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="pricing.html">Prices</a></li>
+    </ul>
+  </nav>
+  <a href="#main-menu-toggle" class="backdrop"></a>
+  </section>
+    <form>
+      <fieldset>
+        <legend>Contact us</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Submit">
+      </fieldset>
+    </form>
+    <aside class="asideGridContact">
+      <img src="productImage1.jpg" id="asideImg1" alt="Innovation 1" onclick="window.open('https://www.inholland.nl/')">
+      <img src="productImage2.jpg" id="asideImg2" alt="Innovation 2" onclick="window.open('https://www.inholland.nl/')">
+      <img src="productImage3.jpg" id="asideImg3" onclick="window.open('https://www.inholland.nl/')">
+    </aside>
+    <footer>
+      &copy; Jan Jaap van Laar
+    </footer>
+    <div id="cookie-statement">
+      <p>Cookie statement</p>
+    </div>
+  </body>
+</html>
